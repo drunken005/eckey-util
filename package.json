@@ -1,0 +1,33 @@
+{
+  "name": "eckey-util",
+  "version": "1.0.0",
+  "description": "Eckey privateKey, publicKey and sign verify",
+  "main": "lib/ECKey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drunken005/eckey-util.git"
+  },
+  "keywords": [
+    "Eckey",
+    "Sign",
+    "Verify",
+    "EC",
+    "Elliptic",
+    "curve",
+    "Cryptograhpy"
+  ],
+  "author": "drunken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drunken005/eckey-util/issues"
+  },
+  "homepage": "https://github.com/drunken005/eckey-util#readme",
+  "dependencies": {
+    "elliptic": "^6.4.1",
+    "secure-random": "^1.1.1",
+    "validator": "^10.11.0"
+  }
+}
