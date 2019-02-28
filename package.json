@@ -1,6 +1,6 @@
 {
   "name": "eckey-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eckey privateKey, publicKey and sign verify",
   "main": "lib/ECKey.js",
   "scripts": {
