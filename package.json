@@ -1,6 +1,6 @@
 {
   "name": "eckey-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eckey privateKey, publicKey and sign verify",
   "main": "lib/ECKey.js",
   "scripts": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/drunken005/eckey-util#readme",
   "dependencies": {
+    "crypto-browserify": "^3.12.0",
     "elliptic": "^6.4.1",
     "secure-random": "^1.1.1",
     "validator": "^10.11.0"
